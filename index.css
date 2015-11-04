@@ -1,0 +1,43 @@
+/*
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 15 of index.html
+
+10: <div id='wrapper'>
+11: <header>
+12:   <div id="logo"><img src="http://i.imgur.com/mtSFDMR.png" alt="simplelogo" height="300" width="350"></div>
+13: 
+14: <div class="social"><img src="http://imgur.com/Jw5yeT1"</div>
+15:  <div class="social"><img src="http://imgur.com/LGFhDso"</div>
+16:  <div class="social"><img src="http://imgur.com/1QV1ALc"</div>
+17: <div class="social"><img src="http://imgur.com/DCScOtx"</div>
+18:  <div class="social"><img src="http://imgur.com/xOheUVS"</div>
+19:  <div class="social"><img src="http://imgur.com/isEMhKt"</div>
+20: </header>
+
+Backtrace:
+index.html:15
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:483:in `block in tabulate'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:441:in `each'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:441:in `each_with_index'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:441:in `tabulate'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:406:in `_to_tree'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin.rb:108:in `method_missing'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/bin/sass:23:in `load'
+/Users/JenniferHKahn/.rbenv/versions/2.2.3/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 15 of index.html\A \A 10: <div id='wrapper'>\A 11: <header>\A 12:   <div id=\"logo\"><img src=\"http://i.imgur.com/mtSFDMR.png\" alt=\"simplelogo\" height=\"300\" width=\"350\"></div>\A 13: \A 14: <div class=\"social\"><img src=\"http://imgur.com/Jw5yeT1\"</div>\A 15:  <div class=\"social\"><img src=\"http://imgur.com/LGFhDso\"</div>\A 16:  <div class=\"social\"><img src=\"http://imgur.com/1QV1ALc\"</div>\A 17: <div class=\"social\"><img src=\"http://imgur.com/DCScOtx\"</div>\A 18:  <div class=\"social\"><img src=\"http://imgur.com/xOheUVS\"</div>\A 19:  <div class=\"social\"><img src=\"http://imgur.com/isEMhKt\"</div>\A 20: </header>"; }
